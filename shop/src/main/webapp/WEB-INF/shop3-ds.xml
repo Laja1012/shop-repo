@@ -7,10 +7,10 @@
    xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
    <!-- The datasource is bound into JNDI at this location. We reference 
       this in META-INF/persistence.xml -->
-   <datasource jndi-name="java:jboss/datasources/shopDS"
+   <datasource jndi-name="java:jboss/datasources/shop3DS"
       pool-name="{artifactId}" enabled="true"
       use-java-context="true">
-      <connection-url>jdbc:h2:mem:shop;DB_CLOSE_DELAY=-1</connection-url>
+      <connection-url>jdbc:h2:mem:shop3;DB_CLOSE_DELAY=-1</connection-url>
       <driver>h2</driver>
       <security>
          <user-name>sa</user-name>
